@@ -1,0 +1,49 @@
+
+/***  Variables  ***/
+:root {
+  --color-primary: #585563;
+  --color-secondary: #16bac5;
+  --color-1: #ea526f;
+  --color-2: #f1e9db;
+  --color-3: #809bce;
+  --color-dark: #1a191e;
+  --color-light: #eeeeef;
+
+  --font-heading: 'Space Grotesk', Arial, sans-serif;
+  --font: 'Lexend Deca', Arial, sans-serif;
+  /* Light: 300 */
+  /* Regular: 400 */
+  /* Medium: 500 */
+  /* SemiBold: 600 */
+  /* Bold: 700 */
+
+
+  --top-menu-height: 80px;
+
+  --admin-bar: 32px;
+  --secondary-menu-height: 40px;
+  --menu-height: 100px;
+  --mobile-menu-height: 50px;
+
+  --transition: all .25s ease-out;
+}
+
+@media all and (max-width: 1439px) {
+  :root {
+    --menu-height: 80px;
+  }
+}
+
+@media all and (max-width: 1199px) {
+  :root {
+    --menu-height: 60px;
+  }
+}
+
+@media all and (max-width: 782px) {
+  :root {
+    --admin-bar: 46px;
+  }
+}
+
+
