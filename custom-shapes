@@ -12,3 +12,16 @@
   position: absolute;
   top: 0;
 }
+
+
+
+/*** Clipped Border Button  ***/
+.reveal-button:before {
+  background: #fff;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 20px) 100%, 0 100%, 0 calc(100% - 2px), calc(100% - 21px) calc(100% - 2px), calc(100% - 2px) calc(100% - 16px), calc(100% - 2px) 2px, 2px 2px, 2px 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 15px), calc(100% - 20px) 100%, 0 100%, 0 calc(100% - 2px), calc(100% - 21px) calc(100% - 2px), calc(100% - 2px) calc(100% - 16px), calc(100% - 2px) 2px, 2px 2px, 2px 100%, 0 100%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 0;
+}
