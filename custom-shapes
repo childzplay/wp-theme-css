@@ -1,0 +1,14 @@
+
+/*** Maintain the aspect ratio for media ***/
+.media-container {
+  overflow: hidden;
+  padding-top: 56.25%;  /* 16:9 ratio (100% = 1:1 ratio) */
+  position: relative;
+  width: 100%;
+}
+.media {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
