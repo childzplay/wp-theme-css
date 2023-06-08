@@ -1,0 +1,27 @@
+
+/*** Variables ***/
+$color-primary: #585563;
+$color-secondary: #16bac5;
+$color-1: #ea526f;
+$color-2: #f1e9db;
+$color-3: #809bce;
+$color-dark: #1a191e;
+$color-light: #eeeeef;
+
+$font-heading: 'Space Grotesk', Arial, sans-serif;
+$font: 'Lexend Deca', Arial, sans-serif;
+
+
+/*** Content ***/
+.page-block {
+  color: $color-light;
+  background-color: $color-primary;
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+  }
+  
+  p {
+    font-family: $font;
+  }
+}
