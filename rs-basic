@@ -1,6 +1,7 @@
 
 /***  Variables  ***/
 :root {
+  /** Colors **/
   --color-primary: #585563;
   --color-secondary: #16bac5;
   --color-1: #ea526f;
@@ -9,6 +10,7 @@
   --color-dark: #1a191e;
   --color-light: #eeeeef;
 
+  /** Fonts **/
   --font-heading: 'Space Grotesk', Arial, sans-serif;
   --font: 'Lexend Deca', Arial, sans-serif;
   /* Light: 300 */
@@ -18,29 +20,30 @@
   /* Bold: 700 */
 
 
+  /** Menu **/
   --top-menu-height: 80px;
-
   --admin-bar: 32px;
   --secondary-menu-height: 40px;
   --menu-height: 100px;
   --mobile-menu-height: 50px;
-
+  
+  /** Other **/
   --transition: all .25s ease-out;
 }
 
-@media all and (max-width: 1439px) {
+@media (max-width: 1439px) {
   :root {
     --menu-height: 80px;
   }
 }
 
-@media all and (max-width: 1199px) {
+@media (max-width: 1199px) {
   :root {
     --menu-height: 60px;
   }
 }
 
-@media all and (max-width: 782px) {
+@media (max-width: 782px) {
   :root {
     --admin-bar: 46px;
   }
