@@ -1,7 +1,8 @@
 
 /*** Variables ***/
 $color-primary: #2B2a32;
-$color-secondary: #16bac5;
+$color-secondary: 1c1b22;
+$color-accent: #e40e6f;
 $color-1: #42414c;
 $color-2: #f1e9db;
 $color-light: #e7e7ee;
