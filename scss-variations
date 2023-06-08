@@ -1,15 +1,22 @@
 
 /*** Variables ***/
-$color-primary: #585563;
+$color-primary: #2B2a32;
 $color-secondary: #16bac5;
-$color-1: #ea526f;
+$color-1: #42414c;
 $color-2: #f1e9db;
-$color-3: #809bce;
-$color-dark: #1a191e;
-$color-light: #eeeeef;
+$color-light: #e7e7ee;
+$color-dark: #7e7d92;
 
 $font-heading: 'Space Grotesk', Arial, sans-serif;
 $font: 'Lexend Deca', Arial, sans-serif;
+
+
+/*** Mixins ***/
+@mixin tagline {
+  color: $color-dark;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
 
 
 /*** Content ***/
@@ -23,5 +30,10 @@ $font: 'Lexend Deca', Arial, sans-serif;
   
   p {
     font-family: $font;
+  }
+  
+  .text-clause {
+    @include tagline;
+    letter-spacing: 0.2em;
   }
 }
